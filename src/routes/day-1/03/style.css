@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  background: navy;
+  color: white;
+
+  width: 80%;
+  margin: 0 auto;
+
+  /* 
+    avoid using height on dynamic long content
+    website are responsive by default
+   */
+  /* height: 300px; */
+
+  /* use padding instead */
+  /* 1em = 1 * default font size in this element (16px); 5 * 16 = 80px */
+  /* 1rem = 1 * default font size of root html (::root) element (16px) */
+  padding: 5em;
+  /* use em for component with dynamic font size */
+}
