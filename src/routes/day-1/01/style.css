@@ -1,0 +1,17 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+.parent {
+	background-color: navy;
+	padding: 50px;
+}
+
+.child {
+	background-color: aqua;
+	height: 250px;
+}
