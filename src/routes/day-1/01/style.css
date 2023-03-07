@@ -9,6 +9,17 @@ body {
 .parent {
 	background-color: navy;
 	padding: 50px;
+
+  /*
+    fixed width,
+    default of border box width is 100%,
+    so prevent using a fixed width for layout
+   */
+  /* width: 900px; */
+  width: 80%;
+
+  /* margin y: 0; x: auto */
+  margin: 0 auto; 
 }
 
 .child {
