@@ -29,5 +29,12 @@ body {
 	margin: 0 auto;
 
 	padding: 2em;
-	height: 300px;
+
+  /* 2. */
+	/* height: 300px; */
+}
+
+.intro-content {
+  /* 1. */
+	width: 50%;
 }
