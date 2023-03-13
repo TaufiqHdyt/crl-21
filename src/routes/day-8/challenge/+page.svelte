@@ -17,7 +17,8 @@
 	</div>
 </div>
 <div class="container">
-	<div class="row">
+  <!-- 3. -->
+	<div id="features" class="row">
 		<div class="col">
 			<h2>Cheap</h2>
 			<p>
@@ -42,19 +43,26 @@
 	</div>
 </div>
 
-<div class="col">
-	<h2>Cheap</h2>
-	<p>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-		labore et dolore magna aliqua. Ut enim ad minim veniam.
-	</p>
-</div>
-<div class="col">
-	<h2>Quick</h2>
-	<p>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-		labore et dolore magna aliqua. Ut enim ad minim veniam.
-	</p>
+<!-- 2. -->
+<div class="outro">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h2>Cheap</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+          labore et dolore magna aliqua. Ut enim ad minim veniam.
+        </p>
+      </div>
+      <div class="col">
+        <h2>Quick</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+          labore et dolore magna aliqua. Ut enim ad minim veniam.
+        </p>
+      </div>
+    </div>
+  </div>
 </div>
 
 <style>

@@ -54,6 +54,11 @@ h1 {
 	width: 100%;
 }
 
+/* 4. */
+.col + .col {
+  margin-inline-start: 1rem;
+}
+
 .hero {
 	padding: 100px 0;
 	background-color: #23424a;
@@ -82,4 +87,23 @@ h1 {
 .btn:hover,
 .btn:focus {
 	opacity: 0.75;
+}
+
+/* 1. */
+#features {
+  margin: 10vh auto;
+  text-align: center;
+}
+
+#features h2 {
+  color: #87629A;
+  font-weight: 700;
+}
+
+/* 3. */
+.outro {
+  padding-block: 10vh;
+  background-color: #136C72;
+  color: white;
+  text-align: center;
 }
