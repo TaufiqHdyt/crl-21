@@ -5,7 +5,7 @@
 </script>
 
 <div class="hero">
-	<div class="container">
+	<div class="container flex">
 		<div class="hero__text">
 			<h1>Responsive layouts don’t have to be a struggle</h1>
 			<p>
@@ -14,6 +14,7 @@
 			</p>
 			<a href="#" class="btn">I want to learn</a>
 		</div>
+		<img class="hero__img" src="/favicon.png" alt="favicon">
 	</div>
 </div>
 
