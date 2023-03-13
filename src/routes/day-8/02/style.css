@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+.hero {
+	background: #23424a;
+	color: white;
+
+	padding: 20vh 0;
+}
+
+.container {
+	width: 80%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.row {
+	/*
+		set display to flexbox
+		.row to become flex container
+	*/
+	display: flex;
+	/* default direction to row */
+	flex-direction: row;
+
+	/* gap between columns */
+	/* gap: 1rem; */
+}
+
+.col {
+	/* this is flex items; items inside flex container */
+	background-color: lightgreen;
+	/* set width 100% to limit */
+	width: 100%;
+}
+
+/* siblings selector */
+.col + .col {
+	/* set margin left to 1rem */
+	margin-left: 1rem;
+}
+
+.intro {
+	max-width: 55%;
+}
+.intro h2 {
+	font-weight: 700;
+	font-size: 3rem;
+}
+.intro p {
+	color: #dde2e3;
+	font-weight: 400;
+	font-size: 21px;
+}
+
+.hero p {
+	margin-block-end: 3rem;
+}
+
+a[role='button'] {
+	display: inline-block;
+
+	font-weight: 700;
+	font-size: 21px;
+
+	color: #23424a;
+	background-color: #38cfd9;
+
+	padding: 1em 1.25em;
+
+	border-radius: 1.5em;
+
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+a[role='button']:hover,
+a[role='button']:focus {
+	opacity: 0.75;
+}
