@@ -91,7 +91,7 @@ h1 {
 
 /* 1. */
 #features {
-  margin: 10vh auto;
+  padding-block: 3em;
   text-align: center;
 }
 
@@ -102,7 +102,7 @@ h1 {
 
 /* 3. */
 .outro {
-  padding-block: 10vh;
+  padding-block: 3em;
   background-color: #136C72;
   color: white;
   text-align: center;
