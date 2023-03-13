@@ -16,8 +16,33 @@
 		</div>
 	</div>
 </div>
-<div class="container">
-	<div id="features" class="row">
+
+<div id="features" class="container flex">
+	<div class="col">
+		<h2>Cheap</h2>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+			labore et dolore magna aliqua. Ut enim ad minim veniam.
+		</p>
+	</div>
+	<div class="col">
+		<h2>Quick</h2>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+			labore et dolore magna aliqua. Ut enim ad minim veniam.
+		</p>
+	</div>
+	<div class="col">
+		<h2>Affordable</h2>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+			labore et dolore magna aliqua. Ut enim ad minim veniam.
+		</p>
+	</div>
+</div>
+
+<div class="outro">
+	<div class="container flex">
 		<div class="col">
 			<h2>Cheap</h2>
 			<p>
@@ -31,34 +56,6 @@
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
 				labore et dolore magna aliqua. Ut enim ad minim veniam.
 			</p>
-		</div>
-		<div class="col">
-			<h2>Affordable</h2>
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-				labore et dolore magna aliqua. Ut enim ad minim veniam.
-			</p>
-		</div>
-	</div>
-</div>
-
-<div class="outro">
-	<div class="container">
-		<div class="row">
-			<div class="col">
-				<h2>Cheap</h2>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-					ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-				</p>
-			</div>
-			<div class="col">
-				<h2>Quick</h2>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-					ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-				</p>
-			</div>
 		</div>
 	</div>
 </div>
