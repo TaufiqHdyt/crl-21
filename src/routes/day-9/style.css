@@ -33,6 +33,7 @@ body {
 
 h1 {
 	font-size: 3rem;
+	/* margin-block-start: 0; */
 }
 
 .container {
@@ -45,6 +46,12 @@ h1 {
 	/* display: flex => flex container */
 	display: flex;
   /* align-items: flex-start; */
+
+	/*
+		justify spacing between flex content
+		default to start
+	*/
+	justify-content: space-between;
 
 	/* can't use yet */
 	/* gap: 100px; */
@@ -66,11 +73,14 @@ h1 {
 }
 
 .hero__text {
-	width: 60%;
+	width: 55%;
+	/* margin-right: 10%; */
 }
 
 .hero__img {
-  align-self: flex-start;
+	width: 35%;
+	/* align this element relative to flex container */
+  /* align-self: flex-start; */
 }
 
 .hero p {
