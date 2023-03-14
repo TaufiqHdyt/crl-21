@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
 /* 
 ////// For this challenge ///////
 
@@ -17,8 +19,6 @@
 *::after {
 	box-sizing: border-box;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
 
 body {
 	margin: 0;
@@ -50,12 +50,22 @@ h1 {
 	/* gap: 100px; */
 }
 
+/* 1. */
+.flex {
+	display: flex;
+}
+
+.transpose {
+	flex-direction: column;
+}
+
 .col {
 	/* these are now flex items */
 	width: 100%;
 }
 
-.col + .col {
+/* 1. */
+.hero .col + .col {
 	margin-left: 30px;
 }
 
@@ -65,17 +75,33 @@ h1 {
 	color: #fff;
 }
 
-.hero__text {
+/* 1. */
+.hero__text, .content__text {
 	width: 62%;
 }
 
-.hero__img {
+/* 1. */
+.hero__img, .content__sidebar {
 	width: 32%;
 	align-self: flex-start;
 }
 
 .hero p {
 	margin-bottom: 3em;
+}
+
+/* 1. */
+.content {
+	padding-block: 3em;
+}
+.content__sidebar {
+	padding: 3em;
+	text-align: center;
+
+	background-color: #136C72;
+	color: white;
+
+	gap: 3em;
 }
 
 .btn {
