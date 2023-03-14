@@ -14,7 +14,9 @@
 			</p>
 			<a href="#" class="btn">I want to learn</a>
 		</div>
-		<img class="hero__img" src="/favicon.png" alt="favicon">
+		<div class="hero__img">
+			<img src="/favicon.png" alt="favicon">
+		</div>
 	</div>
 </div>
 
