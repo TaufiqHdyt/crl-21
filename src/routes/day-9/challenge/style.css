@@ -94,6 +94,9 @@ h1 {
 .content {
 	padding-block: 3em;
 }
+.content__text h2 {
+	color: #136C72;
+}
 .content__sidebar {
 	padding: 3em;
 	text-align: center;
