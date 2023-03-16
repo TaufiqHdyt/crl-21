@@ -75,7 +75,10 @@ header {
 }
 
 .nav__list {
-	margin: 0;
+  display: flex;
+  gap: 1em;
+
+	margin: 1em 0;
 	padding: 0;
 	list-style: none;
 }
