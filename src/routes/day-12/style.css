@@ -102,6 +102,10 @@ header {
 	list-style: none;
 }
 
+.nav__list--primary {
+	margin: 0 auto;
+}
+
 /* push a nav item to right */
 .nav__item--push-right {
 	margin-left: auto;
