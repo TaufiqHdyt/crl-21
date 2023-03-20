@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+  font-size: 18px;
+}
+
+body {
+  margin: 0;
+
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2 {
+  font-family: 'Playfair Display', serif;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  max-width: 1128px;
+
+  margin: 0 auto;
+
+  align-content: center;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex > * {
+  width: 100%;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.text-center {
+  text-align: center;
+}
+.justify-center {
+  justify-content: center;
+}
+
+.hero {
+  background-color: antiquewhite;
+}
+
+.hero-text {
+  text-align: center;
+  min-height: 660px;
+}
+
+.hero-text .lead {
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+}
+.hero-text h1 {
+  font-size: 4rem;
+  color: brown;
+}
+
+main section {
+  padding-block: 3rem;
+}
+
+main h2 {
+  font-size: 2rem;
+}
+main p {
+  font-size: 21px;
+}
+
+.gallery h2 {
+  color: antiquewhite;
+}
+
+.gallery section:nth-child(odd) {
+  background-color: #222c2a;
+  color: white;
+}
+
+.gallery section:nth-child(even) {
+  background-color: brown;
+  color: white;
+}
+
+.gallery section:nth-child(even) > .container {
+  flex-direction: row-reverse;
+}
