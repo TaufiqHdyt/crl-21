@@ -1,0 +1,23 @@
+.container {
+	width: 90%;
+	height: 50vh;
+
+	margin: 0 auto;
+
+	background-color: steelblue;
+}
+
+/* 
+  @media mediatype () {}
+  to overwrite given properties
+ */
+@media (width <= 1128px) {
+	.container {
+		background-color: lightblue;
+	}
+}
+@media (width <= 768px) {
+	.container {
+		background-color: lightcoral;
+	}
+}
