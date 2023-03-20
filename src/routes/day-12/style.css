@@ -94,8 +94,8 @@ header {
 }
 
 .nav__list {
-  display: flex;
-  gap: 1em;
+	display: flex;
+	gap: 1em;
 
 	margin: 0;
 	padding: 0;
@@ -163,6 +163,9 @@ header {
 	background-color: #136c72;
 }
 
+/* 
+	Use 600px, 900px, 1200px, and 1800px if you plan on giving the giant-monitor people something special.
+ */
 
 @media (width <= 600px) {
 	.row {
