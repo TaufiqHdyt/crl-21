@@ -124,6 +124,7 @@ header {
 	visibility: hidden;
 	height: 0;
 	position: absolute;
+	margin-block: 1em;
 }
 
 .nav--visible {
@@ -133,7 +134,7 @@ header {
 
 	display: flex;
 	flex-direction: column;
-	gap: 1em;
+	gap: 1.5em;
 }
 
 .nav__list {
@@ -150,8 +151,13 @@ header {
   color: white;
   text-decoration: none;
 }
+.nav__link:hover,
+.nav__link:focus {
+	opacity: .65;
+}
+
 .nav__link--button {
-	padding: .25em .5em;
+	padding: .25em .75em;
 	color: #136c72;
 	background-color: white;
 	border-radius: 1em;
@@ -195,10 +201,14 @@ header {
 		visibility: visible;
 		display: flex;
 		height: auto;
+		position: relative;
 
 		flex-direction: row;
 		justify-content: flex-end;
 		align-items: center;
+		gap: 1em;
+
+		margin: 0;
 	}
 
 	.nav__list {
