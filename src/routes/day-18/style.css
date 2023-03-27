@@ -34,6 +34,7 @@ section {
 .container {
   width: 85%;
   margin: 0 auto;
+  max-width: 1128px;
 }
 
 .section-title {
@@ -72,4 +73,20 @@ section {
 .section-four {
   background-color: #824936;
   color: #fff;
+}
+
+@media (width >= 800px) {
+  .row {
+    display: flex;
+    gap: 5em;
+  }
+  .col {
+    width: 100%;
+  }
+  /* .col + .col {
+    margin-inline-start: 5em;
+  } */
+  .intro__title {
+    font-size: 3.75rem;
+  }
 }
